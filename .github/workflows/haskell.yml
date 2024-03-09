@@ -38,4 +38,4 @@ jobs:
         cabal update
         cabal build --only-dependencies --enable-tests --enable-benchmarks
     - name: Build
-      run: cabal run exes
+      run: cabal run -v3 exes
