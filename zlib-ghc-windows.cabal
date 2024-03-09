@@ -1,0 +1,7 @@
+cabal-version: 3.8
+name: zlib-ghc-windows
+version: 0.1
+
+executable example
+  build-depends: base, zlib == 0.7.0.0
+  main-is: Main.hs
